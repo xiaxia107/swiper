@@ -1,0 +1,275 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+
+
+#top .topyi {
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(248, 248, 248);
+    color: #666;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+#top .topyi .topxin{
+    width: 1200px;
+    margin: auto;
+}
+#top .topyi .topl a {
+    float: left;
+    color: #666;
+}
+
+#top .topyi .topl a:hover {
+    color: rgb(234, 38, 38);
+}
+
+#top .topyi .topr {
+    float: right;
+}
+
+#top .toper {
+    height: 90px;
+    line-height: 90px;
+    background-color: #fff;
+}
+
+#top .toper img {
+    width: 190px;
+    float: left;
+    margin-top: 22px;
+}
+
+#top .toper .sou {
+    position: relative;
+    float: left;
+    margin-left: 130px;
+}
+
+#top .toper .sou input {
+    width: 180px;
+    height: 40px;
+    padding: 0 45px 0 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 0;
+}
+
+#top .toper .sou img {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    width: 25px;
+}
+
+#top .toper ul {
+    float: right;
+}
+
+#top .toper ul li {
+    float: left;
+    transition: all 0.2s;
+}
+
+#top .toper ul li a {
+    padding: 20px 25px;
+    font-size: 21px;
+    color: #333;
+}
+
+#top .toper ul li:hover {
+    transform: scale(1.1);
+}
+/* banner */
+
+
+
+.main {
+    width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.main-top {
+    padding: 0 20px;
+    height: 65px;
+    line-height: 65px;
+    font-size: 18px;
+    color: #333;
+    letter-spacing: 3px;
+}
+
+.top-left {
+    float: left;
+    font-size: 25px;
+}
+
+.main-top .top-right {
+    float: right;
+}
+
+.top-right ul li {
+    float: left;
+}
+
+.top-right ul li a {
+    padding: 0 10px;
+    font-size: 17px;
+    color: #999;
+}
+
+.top-right ul li a:hover {
+    color: #f00;
+}
+
+.top-right ul li .red {
+    color: #f00;
+}
+
+.nei {
+    height: 670px;
+    border-bottom: 1px solid #bbb;
+}
+
+.nei ul li {
+    float: left;
+    width: 179px;
+    margin-right: 25px;
+    height: 325px;
+   
+}
+
+.nei ul li:nth-child(6n) {
+    margin-right: 0px;
+}
+
+.nei ul li .shang {
+    position: absolute;
+    display: none;
+    z-index: 10;
+    width: 179px;
+    height: 269px;
+    background-color: rgba(83, 81, 81, 0.3);
+    cursor: pointer;
+}
+
+.nei ul li .shang img {
+    width: 50px;
+    height: 50px;
+    position: relative;
+    left: 65px;
+    top: 102px;
+}
+
+.nei ul li:hover .shang {
+    display: block;
+}
+
+.nei ul li img {
+    width: 179px;
+    height: 269px;
+    position: relative;
+}
+
+.nei ul li a p {
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.nei ul li:hover a p {
+    color: rgb(255, 153, 132);
+}
+
+.main p {
+    height: 35px;
+    line-height: 50px;
+    cursor: pointer;
+}
+
+.main p:hover {
+    color: #f00;
+}
+
+/* bottom部分 */
+
+.bottom {
+    height: 321px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.bottom .bottom-n {
+    height: 321px;
+    width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-n .b-left {
+    float: left;
+    height: 100%;
+    width: 545px;
+}
+
+.bottom .bottom-n .b-right {
+    float: left;
+    height: 100%;
+    width: 545px;
+    margin-top: 10px;
+}
+
+.bottom .bottom-n .b-left .b-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.bottom .bottom-n .b-left .b-logo img {
+    display: block;
+    width: 345px;
+    margin-top: 50px;
+    height: 70px;
+}
+
+.bottom .bottom-n .b-left p {
+    margin: 18px 0 39px 0;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #999;
+}
+
+.bottom .bottom-n .b-right table {
+    width: 500px;
+    height: 221px;
+}
+
+.bottom .bottom-n .b-right td {
+    width: 500px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom .bottom-n .b-right td:hover {
+    color: #000;
+}

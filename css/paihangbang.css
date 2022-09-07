@@ -1,0 +1,438 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+}
+
+.main {
+    width: 1200px;
+    margin: auto;
+}
+
+#top .topyi {
+    height: 35px;
+    line-height: 35px;
+    background-color: rgb(248, 248, 248);
+    color: #666;
+    letter-spacing: 2px;
+    font-size: 14px;
+}
+#top .topyi .topxin{
+    width: 1200px;
+    margin: auto;
+}
+#top .topyi .topl a {
+    float: left;
+    color: #666;
+}
+
+#top .topyi .topl a:hover {
+    color: rgb(234, 38, 38);
+}
+
+#top .topyi .topr {
+    float: right;
+}
+
+#top .toper {
+    height: 90px;
+    line-height: 90px;
+    background-color: #fff;
+}
+
+#top .toper img {
+    width: 190px;
+    float: left;
+    margin-top: 22px;
+}
+
+#top .toper .sou {
+    position: relative;
+    float: left;
+    margin-left: 130px;
+}
+
+#top .toper .sou input {
+    width: 180px;
+    height: 40px;
+    padding: 0 45px 0 10px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    background-color: #f5f5f5;
+    border: 0;
+}
+
+#top .toper .sou img {
+    position: absolute;
+    top: 14px;
+    right: 15px;
+    width: 25px;
+}
+
+#top .toper ul {
+    float: right;
+}
+
+#top .toper ul li {
+    float: left;
+    transition: all 0.2s;
+}
+
+#top .toper ul li a {
+    padding: 20px 25px;
+    font-size: 21px;
+    color: #333;
+}
+
+#top .toper ul li:hover {
+    transform: scale(1.1);
+}
+/* banner部分 */
+
+#banner {
+    width: 1140px;
+    margin: auto;
+}
+
+
+/* main-nav部分 */
+
+.hong:hover {
+    color: rgb(232, 100, 97);
+}
+
+.main-nav {
+    height: 190px;
+    border-radius: 10px;
+    line-height: 24px;
+    background-color: #fff;
+    margin-top: 25px;
+    padding: 18px 0 10px 20px;
+}
+
+.main-nav .fenlei {
+    height: 80px;
+    width: 1070px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main-nav .nandu {
+    height: 40px;
+    margin-top: 20px;
+}
+
+.main-nav .leixing {
+    margin-top: 10px;
+    height: 80px;
+}
+
+.main-nav h3 {
+    float: left;
+    width: 88px;
+    height: 24px;
+    color: #999;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.main-nav span {
+    float: left;
+    width: 52px;
+    height: 24px;
+    text-align: center;
+    font-size: 12px;
+    margin-right: 16px;
+    margin-bottom: 8px;
+    background: rgb(253, 237, 235);
+    border-radius: 20px;
+    color: rgb(232, 100, 97);
+}
+
+.main-nav ul {
+    float: left;
+    width: 914px;
+}
+
+.main-nav ul li {
+    float: left;
+    padding: 0 12px;
+    margin: 0 16px 8px 0;
+}
+
+.main-nav ul li a {
+    display: block;
+    color: rgb(104, 130, 140);
+    font-size: 14px;
+    color: #333;
+    height: 24px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+
+/* main部分 */
+
+.main {
+    height: 1100px;
+    padding-top: 70px;
+    background-color: rgb(247, 247, 247);
+}
+
+.main .main-box {
+    height: 100%;
+}
+
+.main .main-box .main-left {
+    width: 180px;
+    height: 900px;
+    float: left;
+    border: 1px solid #ccc;
+}
+
+.main .main-box .main-left dl {
+    height: 300px;
+    border-radius: 3px;
+}
+
+.main .main-box .main-left dl dt {
+    height: 60x;
+    text-align: center;
+    font-size: 24px;
+    padding: 10px;
+    margin: 0 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.main .main-box .main-left dl dd {
+    font-size: 15px;
+    display: block;
+    line-height: 22px;
+    padding: 8px 17px;
+}
+
+.main .main-box .main-left dl dd:hover {
+    color: rgb(156, 100, 100);
+}
+
+.main .main-box .main-left dl .liuxing {
+    background-color: rgb(129, 60, 60);
+    color: #fff;
+}
+
+.main .main-box .main-right {
+    float: left;
+    width: 958px;
+    height: 100%;
+}
+
+.main-right .right-top {
+    height: 64px;
+    margin-bottom: 10px;
+}
+
+.main-right .right-top h1 {
+    float: left;
+    line-height: 64px;
+    font-weight: 400;
+    font-size: 24px;
+    margin: 0 15px 0 30px;
+}
+
+.main-right .right-top span {
+    line-height: 75px;
+    font-size: 14px;
+}
+
+.main-right .lis-bar {
+    height: 38px;
+    line-height: 38px;
+    margin: 0 15px 20px 30px;
+}
+
+.main-right .lis-bar a {
+    padding: 0 23px;
+    margin-right: 6px;
+    display: inline-block;
+    height: 38px;
+    line-height: 38px;
+    color: #000;
+    text-decoration: none;
+    border-radius: 2px;
+    font-size: 14px;
+    border: 1px solid #c9c9c9;
+}
+
+.main-right .lis-bar a .iconfont {
+    margin-right: 5px;
+    color: #aaa;
+    font-weight: 800;
+}
+
+.main-right .lis-bar a:nth-child(1),
+.main-right .lis-bar a:nth-child(1) .iconfont {
+    background-color: rgb(129, 60, 60);
+    color: #fff;
+}
+
+.main-right .lis-bar a:hover {
+    background-color: #eee;
+}
+
+.main-right .lis-bar a.bfqb:hover {
+    background-color: rgb(119, 48, 48);
+}
+
+.main-right .lis-music {
+    margin-left: 30px;
+}
+
+.main-right .lis-music table tr:nth-child(1) td.c,
+.main-right .lis-music table tr:nth-child(1) td.d,
+.main-right .lis-music table tr:nth-child(1) td.e {
+    color: #bbb;
+}
+
+.main-right .lis-music table tr td.a {
+    width: 40px;
+    height: 80px;
+    text-align: right;
+    font-size: 28px;
+    color: #333;
+}
+
+.main-right .lis-music table tr td.b {
+    width: 72px;
+    height: 80px;
+    color: #bbb;
+    text-align: center;
+}
+
+.main-right .lis-music table tr td.b p {
+    font-size: 12px;
+}
+
+.main-right .lis-music table tr td.c {
+    width: 550px;
+    height: 70px;
+    color: #333;
+}
+
+.main-right .lis-music table tr td.d {
+    width: 170px;
+    color: #333;
+}
+
+.main-right .lis-music table tr td.e {
+    width: 80px;
+    color: #bbb;
+    font-size: 14px;
+}
+
+.main-right .lis-music table tr #one,
+.main-right .lis-music table tr #two,
+.main-right .lis-music table tr #stre {
+    color: #f00;
+}
+
+.hong {
+    color: #f00;
+}
+
+.main-right .lis-music table tr td.c div {
+    width: 70px;
+    height: 70px;
+    float: left;
+}
+
+.main-right .lis-music td.c .geming {
+    line-height: 70px;
+    margin-left: 20px;
+    font-size: 14px;
+    width: 400px;
+}
+
+.main-right .lis-music td.c .geming:hover {
+    color: rgb(156, 100, 100);
+}
+
+.main-right .lis-music table tr td.c .tupian img {
+    width: 100%;
+}
+
+
+/* bottom部分 */
+
+.bottom {
+    height: 321px;
+    width: 100%;
+    background-color: #fff;
+    margin-top: 40px;
+}
+
+.bottom .bottom-n {
+    height: 321px;
+    width: 1140px;
+    margin: auto;
+    padding: 50px 20px;
+    box-sizing: border-box;
+}
+
+.bottom .bottom-n .b-left {
+    float: left;
+    height: 100%;
+    width: 545px;
+}
+
+.bottom .bottom-n .b-right {
+    float: left;
+    height: 100%;
+    width: 545px;
+    margin-top: 10px;
+}
+
+.bottom .bottom-n .b-left .b-logo {
+    width: 200px;
+    height: 60px;
+}
+
+.bottom .bottom-n .b-left .b-logo img {
+    display: block;
+    width: 345px;
+    margin-top: 50px;
+    height: 70px;
+}
+
+.bottom .bottom-n .b-left p {
+    margin: 18px 0 39px 0;
+    text-align: justify;
+    line-height: 1.8;
+    font-size: 12px;
+    color: #999;
+}
+
+.bottom .bottom-n .b-right table {
+    width: 500px;
+    height: 221px;
+}
+
+.bottom .bottom-n .b-right td {
+    width: 500px;
+    font-size: 12px;
+    font-weight: 300;
+    color: #999;
+    text-align: center;
+    cursor: pointer;
+}
+
+.bottom .bottom-n .b-right td:hover {
+    color: #000;
+}

@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/swiper.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <title>Document</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            background: rgb(247, 247, 247);
+            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+            font-size: 14px;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #banner {
+            height: 600px;
+        }
+        
+        .swiper-container {
+            width: 100%;
+            height: 600px;
+        }
+        
+        .swiper-slide {
+            text-align: center;
+            font-size: 18px;
+            background: #fff;
+            /* Center slide text vertically */
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            -webkit-box-pack: center;
+            -ms-flex-pack: center;
+            -webkit-justify-content: center;
+            justify-content: center;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            -webkit-align-items: center;
+            align-items: center;
+        }
+        
+        .fade {
+            opacity: 0;
+        }
+        
+        .show {
+            opacity: 1;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="top">
+
+        <div class="topyi">
+            <div class="main">
+                <div class="topl">
+                    <a href="">返回主站</a>
+                </div>
+                <div class="topr">
+                    咨询热线qq : 2737994353@qq.com
+                </div>
+            </div>
+        </div>
+        <div class="toper">
+            <div class="main">
+                <img src="images/logo1.png" alt="">
+                <div class="sou">
+                    <input type="text" placeholder="输入影片关键字...">
+                    <img src="images/sou.png" alt="">
+                </div>
+
+                <ul>
+                    <li>
+                        <a href="#">首页</a>
+                    </li>
+
+                    <li>
+                        <a href="#">分类</a>
+                    </li>
+                    <li>
+                        <a href="#">排行榜</a>
+                    </li>
+                    <li>
+                        <a href="#">手机端</a>
+                    </li>
+                    <li>
+                        <a href="#">登录</a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+    </div>
+    <div id="banner">
+        <!-- <div class="container"></div> -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="images/tu1.jpg" width="100%;" height="630"></div>
+                <div class="swiper-slide"><img src="images/tu2.jpg" width="100%;" height="630"></div>
+                <div class="swiper-slide"><img src="images/tu3.jpg" width="100%;" height="630"></div>
+                <div class="swiper-slide"><img src="images/tu4.jpg" width="100%;" height="630"></div>
+                <div class="swiper-slide"><img src="images/tu5.jpg" width="100%;" height="630"></div>
+                <div class="swiper-slide"><img src="images/tu6.jpg" width="100%;" height="630"></div>
+            </div>
+            <!-- Add Pagination -->
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div class="banner-nav-bg"></div>
+    </div>
+    <div id="rebo">
+
+        <div class="trebo" id="hre">
+            <h2 class="re1 fade">『最近热播』</h2>
+            <div class="lei re2 fade">
+                <a href="#" class="red">电影</a>
+                <a href="#">电视剧</a>
+                <a href="#">动漫</a>
+                <a href="#">综艺</a>
+            </div>
+        </div>
+        <div class="bianji main">
+            <div class="xuan1">
+                <div class="list-adv">
+                    <ul>
+                        <li class="lis1 fade">
+                            <a href="#">
+                                <div class="list-tu">
+                                    <img src="images/re1.jpg" alt="">
+                                </div>
+                                <div class="list-zi">
+                                    <div class="jieshao">
+                                        <a href="#">教你拍一支行云流水般的《PIZZA》广告</a>
+                                        <span>影视 - 幕后制作</span>
+                                    </div>
+                                    <div class="zuozhe">
+                                        <div class="zuozhetu"><img src="images/ren1.jpg" alt=""></div>
+                                        <div>Daniel Schiffer</div>
+                                        <span>出品人</span>
+                                    </div>
+                                </div>
+                            </a>
+
+                        </li>
+                        <li class="lis2 fade">
+                            <a href="#">
+                                <div class="list-tu">
+                                    <img src="images/re2.jpg" alt="">
+                                </div>
+                                <div class="list-zi">
+                                    <div class="jieshao">
+                                        <a href="#">教你拍一支行云流水般的《PIZZA》广告</a>
+                                        <span>影视 - 幕后制作</span>
+                                    </div>
+                                    <div class="zuozhe">
+                                        <div class="zuozhetu"><img src="images/ren2.jpg" alt=""></div>
+                                        <div>Daniel Schiffer</div>
+                                        <span>出品人</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="lis3 fade">
+                            <a href="#">
+                                <div class="list-tu">
+                                    <img src="images/re3.jpg" alt="">
+                                </div>
+                                <div class="list-zi">
+                                    <div class="jieshao">
+                                        <a href="#">教你拍一支行云流水般的《PIZZA》广告</a>
+                                        <span>影视 - 幕后制作</span>
+                                    </div>
+                                    <div class="zuozhe">
+                                        <div class="zuozhetu"><img src="images/ren3.jpg" alt=""></div>
+                                        <div>Daniel Schiffer</div>
+                                        <span>出品人</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+                        <li class="lis4 fade">
+                            <a href="#">
+                                <div class="list-tu">
+                                    <img src="images/re4.jpg" alt="">
+                                </div>
+                                <div class="list-zi">
+                                    <div class="jieshao">
+                                        <a href="#">教你拍一支行云流水般的《PIZZA》广告</a>
+                                        <span>影视 - 幕后制作</span>
+                                    </div>
+                                    <div class="zuozhe">
+                                        <div class="zuozhetu"><img src="images/ren4.jpg" alt=""></div>
+                                        <div>Daniel Schiffer</div>
+                                        <span>出品人</span>
+                                    </div>
+                                </div>
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div id="main">
+        <div class="trebo fade" id="tui">
+            <h2><span></span>『本站推广』</h2>
+            <div class="lei">
+                <a href="#">The website promotes movies and short videos</a>
+            </div>
+        </div>
+        <div class="qifa fade">
+            <div class="jies">
+                <h4>海量优秀视频</h4>
+                <p>海量国内外优质作品，涵盖各类影视创作领域<br>了解业内全新作品动态，寻找启发你的创意灵感</p>
+                <ul>
+                    <li><a href="#">广告/宣传片</a></li>
+                    <li><a href="#">剧情短片</a></li>
+                    <li><a href="#">MV</a></li>
+                    <li><a href="#">纪录片</a></li>
+                    <li><a href="#">创意混剪</a></li>
+                    <li class="more"><a href="#">more</a></li>
+                </ul>
+            </div>
+            <ul class="tu">
+                <li>
+                    <div class="yiny">
+                        Lr中最好用的滤镜《让你的咖啡更惊艳》
+                        <p>Peter McKinnon</p>
+                    </div>
+                    <a href="#"><img src="images/qi1.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        《坚如磐石》首支正式预告
+                        <p>聂兆群</p>
+                    </div>
+                    <a href="#"><img src="images/qi2.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        加油！奥利给！
+                        <p>王林通</p>
+                    </div>
+                    <a href="#"><img src="images/qi3.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        凯迪拉克《二次箴言》
+                        <p>37Film </p>
+                    </div>
+                    <a href="#"><img src="images/qi4.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        天猫国际 618 《重连》
+                        <p>小甜腥</p>
+                    </div>
+                    <a href="#"><img src="images/qi5.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        手机旅拍电影感前后期 5 Tips【4k教程】
+                        <p>怒豆渣</p>
+                    </div>
+                    <a href="#"><img src="images/qi6.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        如何用Pr做出《Rain On Me》同款倒影转场
+                        <p>Cinecom.net</p>
+                    </div>
+                    <a href="#"><img src="images/qi7.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        华帝功夫之水洗碗机
+                        <p>pafassion</p>
+                    </div>
+                    <a href="#"><img src="images/qi8.jpg" alt=""></a>
+                </li>
+                <li>
+                    <div class="yiny">
+                        真的没有为什么
+                        <p>林哲乐</p>
+                    </div>
+                    <a href="#"><img src="images/qi9.jpg" alt=""></a>
+                </li>
+            </ul>
+        </div>
+        <div class="faxian fade">
+            <ul class="tu">
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo11.jpg" alt="">
+                        <img src="images/fbo12.jpg" alt="">
+                        <img src="images/fbo13.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo21.jpg" alt="">
+                        <img src="images/fbo22.jpg" alt="">
+                        <img src="images/fbo23.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo31.jpg" alt="">
+                        <img src="images/fbo32.jpg" alt="">
+                        <img src="images/fbo33.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo41.jpg" alt="">
+                        <img src="images/fbo42.jpg" alt="">
+                        <img src="images/fbo43.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo51.jpg" alt="">
+                        <img src="images/fbo52.jpg" alt="">
+                        <img src="images/fbo53.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo61.jpg" alt="">
+                        <img src="images/fbo62.jpg" alt="">
+                        <img src="images/fbo63.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo71.jpg" alt="">
+                        <img src="images/fbo72.jpg" alt="">
+                        <img src="images/fbo73.jpg" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="lunbo">
+                        <img src="images/fbo81.jpg" alt="">
+                        <img src="images/fbo82.jpg" alt="">
+                        <img src="images/fbo83.jpg" alt="">
+                    </div>
+                </li>
+            </ul>
+            <div class="jies">
+                <h4>发现优秀创作人</h4>
+                <p>优秀创作人聚集地，百万级创作人的专业交流圈<br>寻找志同道合的合作伙伴，搭建优质创作团队</p>
+                <ul>
+                    <li><a href="#">导演</a></li>
+                    <li><a href="#">制片</a></li>
+                    <li><a href="#">摄影</a></li>
+                    <li><a href="#">美术</a></li>
+                    <li><a href="#">剪辑</a></li>
+                    <li class="more"><a href="#">more</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div id="duocai">
+        <div class="trebo kecheng fade">
+            <h2>『多彩信息』</h2>
+            <div class="lei">
+                <a href="#">Rich and colorful information resources</a>
+            </div>
+        </div>
+        <div class="xin dong" id="dong">
+            <div id="box" class="fade">
+                <img src="images//index_w2_bg.png" alt="">
+                <img src="images/index_w2_1.png" alt="" class="dyi">
+                <img src="images/index_w2_2.png" alt="">
+                <img src="images/index_w2_3.png" alt="">
+            </div>
+
+        </div>
+
+    </div>
+    <div id="lei">
+        <div class="xin">
+            <div class="trebo mianfei fade">
+                <h2>『免费课程』</h2>
+                <div class="lei">
+                    <a href="#" class="red">热门</a>
+                    <a href="#">摄影</a>
+                    <a href="#">调色</a>
+                    <a href="#">导演</a>
+                </div>
+            </div>
+            <div class="xin-l">
+                <div class="toptu">
+                    <div class="toptu-l a1 fade">
+                        <img src="images/lei3.jpg" alt="">
+                    </div>
+                    <div class="toptu-r">
+                        <div class="xuexi a2 fade">
+                            <img src="images/lei1.jpg" alt="">
+                        </div>
+
+                        <div class="a3 fade">
+                            <img src="images/lei2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="butu  a4 fade">
+                    <img src="images/tu6.jpg" alt="">
+                </div>
+            </div>
+            <div class="xin-r">
+                <div class="butu youtu-top a5 fade">
+                    <img src="images/tu6.jpg" alt="">
+                </div>
+                <div class="toptu youtu-bu">
+                    <div class="toptu-l a6 fade">
+                        <img src="images/lei3.jpg" alt="">
+                    </div>
+                    <div class="toptu-r">
+                        <div class="xuexi a7 fade">
+                            <img src="images/lei1.jpg" alt="">
+                        </div>
+
+                        <div class=" a8 fade">
+                            <img src="images/lei2.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="ren">
+        <div class="main">
+            <div class="trebo chuang reren fade">
+                <h2><span></span>『热门创作人』</h2>
+                <div class="lei">
+                    <a href="#">Promote popular creators for you</a>
+                </div>
+            </div>
+            <div class="ma-lis">
+                <ul class="a">
+                    <li class="renwu1 fade">
+                        <div class="l">
+                            <div class="tou">
+                                <img src="images/tou1.jpg" alt="">
+                                <span>联系合作</span>
+                            </div>
+                            <div class="n">
+                                <h3>LIN</h3>
+                                <span>播放 </span>1162544 <span> | </span> <span>喜欢</span> 36209
+                                <br />
+                                <span class="he">1LIN1 Studios创始人，公众号film1lin1，合作请联系bd@1lin1.com。</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="images/pin11.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin12.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin13.jpg" alt=""></a>
+                        </div>
+                    </li>
+
+                    <li class="renwu2 fade">
+                        <div class="l">
+                            <div class="tou">
+                                <img src="images/tou2.jpg" alt="">
+                                <span>联系合作</span>
+                            </div>
+                            <div class="n">
+                                <h3>董北</h3>
+                                <span>播放 </span>1162544 <span> | </span> <span>喜欢</span> 36209
+                                <br />
+                                <span class="he">1LIN1 Studios创始人，公众号film1lin1，合作请联系bd@1lin1.com。</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="images/pin21.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin22.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin23.jpg" alt=""></a>
+                        </div>
+                    </li>
+                    <li class="renwu3 fade">
+                        <div class="l">
+                            <div class="tou">
+                                <img src="images/tou3.jpg" alt="">
+                                <span>联系合作</span>
+                            </div>
+                            <div class="n">
+                                <h3>李旭坚</h3>
+                                <span>播放 </span>1162544 <span> | </span> <span>喜欢</span> 36209
+                                <br />
+                                <span class="he">1LIN1 Studios创始人，公众号film1lin1，合作请联系bd@1lin1.com。</span>
+                            </div>
+                        </div>
+                        <div class="r">
+                            <a href="#"><img src="images/pin31.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin32.jpg" alt=""></a>
+                            <a href="#"><img src="images/pin33.jpg" alt=""></a>
+                        </div>
+                    </li>
+
+
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="bottom">
+        <div class="bottom-n">
+            <div class="b-left">
+                <div class="b-logo">
+                    <img src="images/logo1.png" alt="">
+                </div>
+                <p>憨憨影院聚集全球原创优质视频及创作人，提供4K、无广告、无水印视频观看，专业的视频 <br> 艺术学习教程，正版视觉素材交易等，与数百万创作人一起用作品打动世界
+                </p>
+            </div>
+            <div class="b-right">
+                <table>
+                    <tr>
+                        <th>关于</th>
+                        <th>活动</th>
+                        <th>憨憨集团</th>
+                    </tr>
+                    <tr>
+                        <td>关于我们</td>
+                        <td>NEW ERA 青年电影季</td>
+                        <td>憨憨社区</td>
+                    </tr>
+                    <tr>
+                        <td>使用帮助</td>
+                        <td>创作吧少年</td>
+                        <td>憨憨影业</td>
+                    </tr>
+                    <tr>
+                        <td>加入我们</td>
+                        <td>憨憨高效巡展</td>
+                        <td>憨憨短视频</td>
+                    </tr>
+                    <tr>
+                        <td>用户协议</td>
+                        <td>更多活动</td>
+                        <td>憨憨营销</td>
+                    </tr>
+                    <tr>
+                        <td>企业店铺</td>
+                        <td> </td>
+                        <td>七个憨憨</td>
+                    </tr>
+                </table>
+            </div>
+
+        </div>
+    </div>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+    <script type="text/javascript" src="js/swiper.js"></script>
+    <script type="text/javascript">
+        var swiper = new Swiper('.swiper-container', {
+            pagination: '.swiper-pagination',
+            paginationClickable: true,
+            loop: true,
+            autoplay: 3000,
+
+
+            speed: 1000,
+            prevButton: '.swiper-button-prev',
+            nextButton: '.swiper-button-next',
+            effect: 'coverflow', //  effect: 'flip','coverflow','slide', 'fade','cube'
+            grabCursor: true,
+            cube: {
+                shadow: false,
+                slideShadows: false,
+                shadowOffset: 20,
+                shadowScale: 0.94
+            }
+        });
+    </script>
+</body>
+
+</html>
